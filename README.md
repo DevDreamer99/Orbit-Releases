@@ -15,6 +15,29 @@
 
 ---
 
+## Screenshots
+
+<p align="center">
+  <img src="assets/screenshots/1-main.png" alt="Orbit panel with Claude and ChatGPT side by side">
+</p>
+
+<table>
+  <tr>
+    <td><img src="assets/screenshots/2-detail.png" alt="Pace, sustainable rate and weekly chart"></td>
+    <td><img src="assets/screenshots/3-dark.png" alt="Orbit in dark mode"></td>
+  </tr>
+  <tr>
+    <td><img src="assets/screenshots/4-notch.png" alt="The notch drawer"></td>
+    <td><img src="assets/screenshots/5-history.png" alt="Usage history"></td>
+  </tr>
+  <tr>
+    <td><img src="assets/screenshots/6-alerts.png" alt="Alert settings"></td>
+    <td><img src="assets/screenshots/7-services.png" alt="Services and menu bar settings"></td>
+  </tr>
+</table>
+
+<sub>The screenshots use sample data. The interface is in Italian.</sub>
+
 ## Install
 
 1. Download the `.dmg` from the [latest release](https://github.com/DevDreamer99/Orbit-Releases/releases/latest).
