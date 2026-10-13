@@ -53,9 +53,9 @@ Orbit is not affiliated with, endorsed by or sponsored by Anthropic or OpenAI. "
 
 | Version | macOS | Macs |
 |---|---|---|
-| 1.1 and later | 14 Sonoma or later | Apple silicon and Intel |
+| 1.1.0 and later | 14 Sonoma or later | Apple silicon and Intel |
 
 ## What's new
 
-**1.1**
+**1.1.0**
 - First public release.
