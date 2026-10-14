@@ -31,8 +31,12 @@
     <td><img src="assets/screenshots/5-history.png" alt="Usage history"></td>
   </tr>
   <tr>
-    <td><img src="assets/screenshots/6-alerts.png" alt="Alert settings"></td>
-    <td><img src="assets/screenshots/7-services.png" alt="Services and menu bar settings"></td>
+    <td><img src="assets/screenshots/7-services.png" alt="Settings: services"></td>
+    <td><img src="assets/screenshots/8-menubar.png" alt="Settings: menu bar and notch"></td>
+  </tr>
+  <tr>
+    <td><img src="assets/screenshots/6-alerts.png" alt="Settings: alerts"></td>
+    <td></td>
   </tr>
 </table>
 
@@ -42,11 +46,11 @@
 
 1. Download the `.dmg` from the [latest release](https://github.com/DevDreamer99/Orbit-Releases/releases/latest).
 2. Open it and drag **Orbit** into **Applications**.
-3. Open Orbit: it lives in the menu bar. Open **Settings → Services** (in Italian: **Impostazioni → Servizi**), choose **Add service…** (**Aggiungi servizio…**) and sign in to Claude and/or ChatGPT with your own account.
+3. Open Orbit: it lives in the menu bar. Open **Settings → Services** (in Italian: **Impostazioni → Servizi**; right-click the icon for a quick menu), choose **Add…** next to **Add a service** (**Aggiungi un servizio**) and sign in to Claude and/or ChatGPT with your own account.
 
 Once a day Orbit asks GitHub whether a newer version exists and tells you if so. To update, press **Update** (**Aggiorna**) in the banner: Orbit downloads the new version, checks that it is signed by the developer, and opens it so you can drag Orbit into **Applications**. Nothing is downloaded until you press the button, and Orbit never installs anything by itself. You can turn the check off in **Settings → General** (**Impostazioni → Generali**).
 
-If you have 1.1.0, install 1.2.0 by hand once from the [latest release](https://github.com/DevDreamer99/Orbit-Releases/releases/latest): from 1.2.0 on, updates are one click.
+If you have 1.1.0, install the latest version by hand once from the [latest release](https://github.com/DevDreamer99/Orbit-Releases/releases/latest): from 1.2.0 on, updates are one click.
 
 ## Features
 
@@ -57,6 +61,7 @@ If you have 1.1.0, install 1.2.0 by hand once from the [latest release](https://
 - **History**: charts for 24 hours, 7 days and 30 days, with peaks. Orbit keeps a year of history on your Mac and can export it.
 - **Menu bar your way**: services with percentages, or just the logo. Up to two services at a time.
 - **Notch drawer** *(optional, MacBooks with a notch)*: hover over the notch, or drag it down, to open a drawer with all your services. Alerts drop from there too.
+- **Quick menu.** Right-click (or Control-click) the icon in the menu bar for the usage of each service, Refresh now, history, Settings, Check for updates and Quit. A normal click opens the panel.
 - **Light and dark mode.** The interface is in Italian; English, Français, Deutsch and Español are partly translated.
 
 ## Safe by design
@@ -81,6 +86,10 @@ Orbit is not affiliated with, endorsed by or sponsored by Anthropic or OpenAI. "
 | 1.1.0 and later | 14 Sonoma or later | Apple silicon and Intel |
 
 ## What's new
+
+**1.3.0**
+- **New Settings.** A sidebar with Services, Menu bar, Alerts and General, grouped rows, light and dark mode. The window always opens in the middle of the screen.
+- **Quick menu** with a right-click on the menu bar icon.
 
 **1.2.0**
 - **Update inside the app.** Press **Update** in the banner: Orbit downloads the new version, checks its signature and opens it, ready to drag into Applications.
