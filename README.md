@@ -44,7 +44,9 @@
 2. Open it and drag **Orbit** into **Applications**.
 3. Open Orbit: it lives in the menu bar. Open **Settings → Services** (in Italian: **Impostazioni → Servizi**), choose **Add service…** (**Aggiungi servizio…**) and sign in to Claude and/or ChatGPT with your own account.
 
-Once a day Orbit asks GitHub whether a newer version exists and tells you if so. It never downloads or installs anything by itself, and you can turn the check off in **Settings → General** (**Impostazioni → Generali**).
+Once a day Orbit asks GitHub whether a newer version exists and tells you if so. To update, press **Update** (**Aggiorna**) in the banner: Orbit downloads the new version, checks that it is signed by the developer, and opens it so you can drag Orbit into **Applications**. Nothing is downloaded until you press the button, and Orbit never installs anything by itself. You can turn the check off in **Settings → General** (**Impostazioni → Generali**).
+
+If you have 1.1.0, install 1.2.0 by hand once from the [latest release](https://github.com/DevDreamer99/Orbit-Releases/releases/latest): from 1.2.0 on, updates are one click.
 
 ## Features
 
@@ -63,7 +65,7 @@ Once a day Orbit asks GitHub whether a newer version exists and tells you if so.
 - **Read-only.** Orbit only reads your usage. It never sends a message and never changes your conversations, settings or plan.
 - **Your sign-in stays on your Mac.** You sign in to Claude or ChatGPT yourself, in a window inside the app. Credentials are kept in the macOS Keychain and are never sent anywhere else.
 - **No analytics, no telemetry, no account with us.**
-- **Few addresses, all explained.** Orbit itself only talks to `claude.ai` and `chatgpt.com` (to read your usage) and to `api.github.com` (the daily update check, which you can turn off). While you sign in, the service's own login page loads whatever it normally does, such as its sign-in provider, exactly as it would in any browser.
+- **Few addresses, all explained.** Orbit itself only talks to `claude.ai` and `chatgpt.com` (to read your usage) and to GitHub: `api.github.com` for the daily update check (which you can turn off) and, only when you press **Update**, `github.com` and GitHub's file storage to download the new version. While you sign in, the service's own login page loads whatever it normally does, such as its sign-in provider, exactly as it would in any browser.
 - **Easy to remove.** *Uninstall* in Settings erases your sign-ins, history and settings.
 
 ## Good to know
@@ -79,6 +81,9 @@ Orbit is not affiliated with, endorsed by or sponsored by Anthropic or OpenAI. "
 | 1.1.0 and later | 14 Sonoma or later | Apple silicon and Intel |
 
 ## What's new
+
+**1.2.0**
+- **Update inside the app.** Press **Update** in the banner: Orbit downloads the new version, checks its signature and opens it, ready to drag into Applications.
 
 **1.1.0**
 - First public release.
