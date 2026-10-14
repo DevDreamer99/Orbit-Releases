@@ -34,11 +34,11 @@
     <td><img src="assets/screenshots/7-services.png" alt="Settings: services"></td>
     <td><img src="assets/screenshots/8-menubar.png" alt="Settings: menu bar and notch"></td>
   </tr>
-  <tr>
-    <td><img src="assets/screenshots/6-alerts.png" alt="Settings: alerts"></td>
-    <td></td>
-  </tr>
 </table>
+
+<p align="center">
+  <img src="assets/screenshots/6-alerts.png" alt="Settings: alerts">
+</p>
 
 <sub>The screenshots use sample data. The interface is in Italian.</sub>
 
