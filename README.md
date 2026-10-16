@@ -87,6 +87,9 @@ Orbit is not affiliated with, endorsed by or sponsored by Anthropic or OpenAI. "
 
 ## What's new
 
+**1.3.1**
+- **Status dots in the notch drawer**, one for the 5-hour and one for the 7-day figure of each service: green when all is fine, orange when you should slow down, red near the limit.
+
 **1.3.0**
 - **New Settings.** A sidebar with Services, Menu bar, Alerts and General, grouped rows, light and dark mode. The window always opens in the middle of the screen.
 - **Quick menu** with a right-click on the menu bar icon.
