@@ -87,6 +87,10 @@ Orbit is not affiliated with, endorsed by or sponsored by Anthropic or OpenAI. "
 
 ## What's new
 
+**1.4.2**
+- **Status dots in the notch drawer** now also show room to spare (blue).
+- **"Uso" column** in the details: how much of the sustainable pace you are using.
+
 **1.4.1**
 - Same as 1.4.0, to try the one-click update.
 
