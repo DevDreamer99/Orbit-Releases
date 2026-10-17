@@ -87,6 +87,9 @@ Orbit is not affiliated with, endorsed by or sponsored by Anthropic or OpenAI. "
 
 ## What's new
 
+**1.4.3**
+- **"Fatto" column** in the details (replaces "Uso"): how much you actually used, since midnight for the week and in the last hour for the session, to compare with the sustainable pace.
+
 **1.4.2**
 - **Status dots in the notch drawer** now also show room to spare (blue).
 - **"Uso" column** in the details: how much of the sustainable pace you are using.
