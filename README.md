@@ -87,6 +87,9 @@ Orbit is not affiliated with, endorsed by or sponsored by Anthropic or OpenAI. "
 
 ## What's new
 
+**1.4.4**
+- **Fix:** in the "Fatto" column, the day of the week now starts at the time your weekly limit resets, not at midnight.
+
 **1.4.3**
 - **"Fatto" column** in the details (replaces "Uso"): how much you actually used, since midnight for the week and in the last hour for the session, to compare with the sustainable pace.
 
