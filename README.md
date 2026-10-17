@@ -87,6 +87,9 @@ Orbit is not affiliated with, endorsed by or sponsored by Anthropic or OpenAI. "
 
 ## What's new
 
+**1.4.1**
+- Same as 1.4.0, to try the one-click update.
+
 **1.4.0**
 - **Update in one click.** A window with the release notes and **Install Update**: Orbit downloads the new version, checks it, replaces itself and reopens, as Fanny and Kambo do. Orbit keeps the macOS sandbox. Install this version by hand once.
 
