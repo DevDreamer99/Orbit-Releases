@@ -48,9 +48,9 @@
 2. Open it and drag **Orbit** into **Applications**.
 3. Open Orbit: it lives in the menu bar. Open **Settings → Services** (in Italian: **Impostazioni → Servizi**; right-click the icon for a quick menu), choose **Add…** next to **Add a service** (**Aggiungi un servizio**) and sign in to Claude and/or ChatGPT with your own account.
 
-Once a day Orbit asks GitHub whether a newer version exists and tells you if so. To update, press **Update** (**Aggiorna**) in the banner: Orbit downloads the new version, checks that it is signed by the developer, and opens it so you can drag Orbit into **Applications**. Nothing is downloaded until you press the button, and Orbit never installs anything by itself. You can turn the check off in **Settings → General** (**Impostazioni → Generali**).
+Once a day Orbit asks GitHub whether a newer version exists and tells you if so. To update, press **Update** (**Aggiorna**) in the banner: the download of the new version starts in your browser. Open it, quit Orbit and drag the new copy into **Applications**. Nothing is downloaded until you press the button, and Orbit never downloads or installs anything by itself. You can turn the check off in **Settings → General** (**Impostazioni → Generali**).
 
-If you have 1.1.0, install the latest version by hand once from the [latest release](https://github.com/DevDreamer99/Orbit-Releases/releases/latest): from 1.2.0 on, updates are one click.
+If you have 1.3.1 or earlier, install the latest version by hand once from the [latest release](https://github.com/DevDreamer99/Orbit-Releases/releases/latest): in those versions the Update button does not work (macOS refuses to start an app downloaded that way). From 1.3.2 on it does.
 
 ## Features
 
@@ -70,7 +70,7 @@ If you have 1.1.0, install the latest version by hand once from the [latest rele
 - **Read-only.** Orbit only reads your usage. It never sends a message and never changes your conversations, settings or plan.
 - **Your sign-in stays on your Mac.** You sign in to Claude or ChatGPT yourself, in a window inside the app. Credentials are kept in the macOS Keychain and are never sent anywhere else.
 - **No analytics, no telemetry, no account with us.**
-- **Few addresses, all explained.** Orbit itself only talks to `claude.ai` and `chatgpt.com` (to read your usage) and to GitHub: `api.github.com` for the daily update check (which you can turn off) and, only when you press **Update**, `github.com` and GitHub's file storage to download the new version. While you sign in, the service's own login page loads whatever it normally does, such as its sign-in provider, exactly as it would in any browser.
+- **Few addresses, all explained.** Orbit itself only talks to `claude.ai` and `chatgpt.com` (to read your usage) and to `api.github.com` for the daily update check (which you can turn off). When you press **Update**, your browser, not Orbit, downloads the new version from GitHub. While you sign in, the service's own login page loads whatever it normally does, such as its sign-in provider, exactly as it would in any browser.
 - **Easy to remove.** *Uninstall* in Settings erases your sign-ins, history and settings.
 
 ## Good to know
@@ -87,6 +87,10 @@ Orbit is not affiliated with, endorsed by or sponsored by Anthropic or OpenAI. "
 
 ## What's new
 
+**1.3.2**
+- **Fix: Update.** The button starts the download in your browser instead of downloading inside Orbit, which macOS blocked.
+- **Fix: Start at login.** After you replace Orbit with a newer version, it renews its start-at-login entry once.
+
 **1.3.1**
 - **Status dots in the notch drawer**, one for the 5-hour and one for the 7-day figure of each service: green when all is fine, orange when you should slow down, red near the limit.
 
@@ -95,7 +99,7 @@ Orbit is not affiliated with, endorsed by or sponsored by Anthropic or OpenAI. "
 - **Quick menu** with a right-click on the menu bar icon.
 
 **1.2.0**
-- **Update inside the app.** Press **Update** in the banner: Orbit downloads the new version, checks its signature and opens it, ready to drag into Applications.
+- **Update button** in the banner (did not work until 1.3.2).
 
 **1.1.0**
 - First public release.
