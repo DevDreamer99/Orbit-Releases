@@ -87,6 +87,10 @@ Orbit is not affiliated with, endorsed by or sponsored by Anthropic or OpenAI. "
 
 ## What's new
 
+**1.4.5**
+- **Clearer usage lines** in the details ("Usato nel giorno" and "Usato nell'ultima ora") instead of the "Fatto" column.
+- **No scroll bar** in the panel, so the cards keep their width.
+
 **1.4.4**
 - **Fix:** in the "Fatto" column, the day of the week now starts at the time your weekly limit resets, not at midnight.
 
