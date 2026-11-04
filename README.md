@@ -87,6 +87,9 @@ Orbit is not affiliated with, endorsed by or sponsored by Anthropic or OpenAI. "
 
 ## What's new
 
+**1.4.6**
+- **Fix:** the "limit reached" alert no longer repeats at every check.
+
 **1.4.5**
 - **Clearer usage lines** in the details ("Usato nel giorno" and "Usato nell'ultima ora") instead of the "Fatto" column.
 - **No scroll bar** in the panel, so the cards keep their width.
