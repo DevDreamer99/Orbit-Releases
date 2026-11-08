@@ -50,7 +50,7 @@
 
 Once a day Orbit asks GitHub whether a newer version exists and tells you if so. To update, press **Update** (**Aggiorna**) in the banner: a window shows the release notes, and **Install Update** (**Installa aggiornamento**) downloads the new version, checks that it is signed by the developer and notarized by Apple, replaces Orbit and reopens it. Nothing is downloaded until you press the button, and Orbit never downloads or installs anything by itself. You can turn the check off in **Settings → General** (**Impostazioni → Generali**).
 
-If you have 1.3.2 or earlier, install the latest version by hand once from the [latest release](https://github.com/DevDreamer99/Orbit-Releases/releases/latest) (quit Orbit, drag the new copy into Applications): in those versions the Update button does not install by itself. From 1.4.0 on it does.
+If you have 1.4.6 or earlier, install the latest version by hand once from the [latest release](https://github.com/DevDreamer99/Orbit-Releases/releases/latest) (quit Orbit, drag the new copy into Applications): 1.5.0 changed the app identifier, so older versions cannot update to it by themselves. From 1.5.0 on, the Update button installs by itself.
 
 ## Features
 
@@ -86,6 +86,11 @@ Orbit is not affiliated with, endorsed by or sponsored by Anthropic or OpenAI. "
 | 1.1.0 and later | 14 Sonoma or later | Apple silicon and Intel |
 
 ## What's new
+
+**1.5.0**
+- **New identity:** Orbit now uses a neutral app identifier, so macOS treats it as a new app. Install this version by hand once and reconnect Claude and ChatGPT.
+- **Weekly alert at every percent from 95%**, for Claude and ChatGPT.
+- **Adjustable margin** (5 minutes to 2 hours) for how much before the reset the sustainable weekly pace aims to finish.
 
 **1.4.6**
 - **Fix:** the "limit reached" alert no longer repeats at every check.
