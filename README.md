@@ -50,8 +50,6 @@
 
 Once a day Orbit asks GitHub whether a newer version exists and tells you if so. To update, press **Update** (**Aggiorna**) in the banner: a window shows the release notes, and **Install Update** (**Installa aggiornamento**) downloads the new version, checks that it is signed by the developer and notarized by Apple, replaces Orbit and reopens it. Nothing is downloaded until you press the button, and Orbit never downloads or installs anything by itself. You can turn the check off in **Settings → General** (**Impostazioni → Generali**).
 
-If you have an older version, install the latest one by hand once from the [latest release](https://github.com/DevDreamer99/Orbit-Releases/releases/latest) (quit Orbit, drag the new copy into Applications): the app identifier changed, so older versions cannot update to it by themselves. From 1.5.1 on, the Update button installs by itself.
-
 ## Features
 
 - **Both limits at a glance**: the 5-hour session and the weekly limit of each service, with percentages, bars and countdowns to the reset. Claude and ChatGPT side by side.
@@ -81,17 +79,6 @@ Orbit is not affiliated with, endorsed by or sponsored by Anthropic or OpenAI. "
 
 ## Requirements
 
-| Version | macOS | Macs |
-|---|---|---|
-| 1.5.1 and later | 14 Sonoma or later | Apple silicon and Intel |
-
-## What's new
-
-**1.5.2**
-- A small tidy-up: the app's copyright now carries the app name. Nothing changes in how Orbit works.
-
-**1.5.1**
-- **New identity:** Orbit uses a neutral app identifier, so macOS treats it as a new app. Install it by hand once and reconnect Claude and ChatGPT.
-- **Weekly alert at every percent from 95%**, for Claude and ChatGPT.
-- **Adjustable margin** (5 minutes to 2 hours) for how much before the reset the sustainable weekly pace aims to finish.
-- **More reliable updates:** if GitHub's web pages do not answer, the update retries and then downloads the same file through GitHub's API.
+| macOS | Macs |
+|---|---|
+| 14 Sonoma or later | Apple silicon and Intel |
