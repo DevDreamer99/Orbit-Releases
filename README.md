@@ -87,6 +87,9 @@ Orbit is not affiliated with, endorsed by or sponsored by Anthropic or OpenAI. "
 
 ## What's new
 
+**1.5.2**
+- A small tidy-up: the app's copyright now carries the app name. Nothing changes in how Orbit works.
+
 **1.5.1**
 - **New identity:** Orbit uses a neutral app identifier, so macOS treats it as a new app. Install it by hand once and reconnect Claude and ChatGPT.
 - **Weekly alert at every percent from 95%**, for Claude and ChatGPT.
