@@ -83,7 +83,7 @@ Orbit is not affiliated with, endorsed by or sponsored by Anthropic or OpenAI. "
 
 | Version | macOS | Macs |
 |---|---|---|
-| 1.1.0 and later | 14 Sonoma or later | Apple silicon and Intel |
+| 1.4.7 and later | 14 Sonoma or later | Apple silicon and Intel |
 
 ## What's new
 
@@ -94,43 +94,3 @@ Orbit is not affiliated with, endorsed by or sponsored by Anthropic or OpenAI. "
 
 **1.4.7**
 - **Bridge to the new app identity.** Keeps the current identifier and can update itself to 1.5.0. Also includes the weekly alert from 95%, the adjustable weekly margin, and no build number in Settings.
-
-**1.4.6**
-- **Fix:** the "limit reached" alert no longer repeats at every check.
-
-**1.4.5**
-- **Clearer usage lines** in the details ("Usato nel giorno" and "Usato nell'ultima ora") instead of the "Fatto" column.
-- **No scroll bar** in the panel, so the cards keep their width.
-
-**1.4.4**
-- **Fix:** in the "Fatto" column, the day of the week now starts at the time your weekly limit resets, not at midnight.
-
-**1.4.3**
-- **"Fatto" column** in the details (replaces "Uso"): how much you actually used, since midnight for the week and in the last hour for the session, to compare with the sustainable pace.
-
-**1.4.2**
-- **Status dots in the notch drawer** now also show room to spare (blue).
-- **"Uso" column** in the details: how much of the sustainable pace you are using.
-
-**1.4.1**
-- Same as 1.4.0, to try the one-click update.
-
-**1.4.0**
-- **Update in one click.** A window with the release notes and **Install Update**: Orbit downloads the new version, checks it, replaces itself and reopens, as Fanny and Kambo do. Orbit keeps the macOS sandbox. Install this version by hand once.
-
-**1.3.2**
-- **Fix: Update.** The button starts the download in your browser instead of downloading inside Orbit, which macOS blocked.
-- **Fix: Start at login.** After you replace Orbit with a newer version, it renews its start-at-login entry once.
-
-**1.3.1**
-- **Status dots in the notch drawer**, one for the 5-hour and one for the 7-day figure of each service: green when all is fine, orange when you should slow down, red near the limit.
-
-**1.3.0**
-- **New Settings.** A sidebar with Services, Menu bar, Alerts and General, grouped rows, light and dark mode. The window always opens in the middle of the screen.
-- **Quick menu** with a right-click on the menu bar icon.
-
-**1.2.0**
-- **Update button** in the banner (did not work until 1.3.2).
-
-**1.1.0**
-- First public release.
