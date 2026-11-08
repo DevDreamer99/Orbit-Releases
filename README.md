@@ -92,6 +92,9 @@ Orbit is not affiliated with, endorsed by or sponsored by Anthropic or OpenAI. "
 - **Weekly alert at every percent from 95%**, for Claude and ChatGPT.
 - **Adjustable margin** (5 minutes to 2 hours) for how much before the reset the sustainable weekly pace aims to finish.
 
+**1.4.7**
+- **Bridge to the new app identity.** Keeps the current identifier and can update itself to 1.5.0. Also includes the weekly alert from 95%, the adjustable weekly margin, and no build number in Settings.
+
 **1.4.6**
 - **Fix:** the "limit reached" alert no longer repeats at every check.
 
